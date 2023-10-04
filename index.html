@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Chronometer</title>
+</head>
+<body>
+    <main>
+        <img class="logo" src="./assets/logo-portfolio.png" alt="logo-gabriel-alexsander">
+        <div class="container_UP">
+            <h3>Cronômetro</h3>
+
+            <div class="container_numbers">
+                <div class="number hr">00</div>
+                <p class="number">:</p>
+                <div class="number min">00</div>
+                <p class="number">:</p>
+                <div class="number seg">00</div>
+                <div id="millisecond" style="display: none;">000</div>
+            </div>
+        </div>
+
+        <form class="container_DOWN" name="containerDOWN">
+            <button type="button" name="reset">
+                <img class="img_pauseEplay" src="./assets/reset.png">
+            </button>
+            <button type="button" name="pause">
+                <img class="img_pauseEplay" src="./assets/pause.png">
+            </button>
+            <button type="button" name="start">
+                <img class="img_pauseEplay" src="./assets/play.png">
+            </button>
+        </form>
+    </main>
+</body>
+
+<script src="./index.js"></script>
+
+</html>

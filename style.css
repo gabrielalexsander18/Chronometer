@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0a0a0a;
+    background-image: url(./assets/cronometro.png);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 150px;
+    background-color: none;
+
+    margin-bottom: 30px;
+}
+
+.logo:hover {
+    opacity: .5;
+    rotate: -10deg;
+    transition: 0.7s;
+}
+
+.container_UP {
+    padding: 25px;
+    border-radius: 15px;
+    background-color: rgba(220,220,220, .9);
+    box-shadow: -15px 15px 25px rgba(250, 250, 250, 0.2);
+    color: black;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 100;
+    font-family: bold;
+}
+
+.container_numbers {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+.number {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.container_DOWN {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: rgba(169,169,169);
+    box-shadow: -2px 2px 15px rgba(250, 250, 250, 0.5);
+    padding: 15px;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+}
+
+.img_pauseEplay {
+    width: 70px;
+}
